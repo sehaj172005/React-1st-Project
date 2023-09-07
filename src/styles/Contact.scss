@@ -1,0 +1,88 @@
+
+
+@import "colors";
+
+
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-color: $second;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    >main{
+        background-color: white;
+        width: 70%;
+        height: 30rem;
+        border-radius: 0 200px 200px 0;
+
+        >h1{
+            padding-left: 2rem;
+            padding-top: 20px;
+            font : 200 2rem $text2;
+            
+
+        }
+
+
+        >form{
+            display: flex;
+            justify-content: center ;
+            align-items: center;
+            flex-direction: column;
+            margin:4rem;
+
+
+            >div{
+                height: 3rem;
+                display: flex;
+                width: 60%;
+                margin: 0.5rem;
+                justify-content:center;
+                align-items: center;
+
+                >label{
+                    font : 400 1.2rem $text2;
+                    width: 20%;
+                    margin: 0 1rem;
+                }
+
+                    >input{
+                        align-items: stretch;
+                        padding: 1rem;
+                        width: 80%;
+                        border-radius:  5px ;
+                        border : 1px solid grey;
+                        outline: none;
+                        height: 10%;
+                    }
+
+
+
+                }
+
+                >button{
+                    font: 300 1rem $text2;
+                    width : 10%;
+                    margin : 1rem;
+                    background-color: black;
+                        color: white;
+                        border-radius: 20px;
+
+                    &:hover{
+                        background-color: white;
+                        color: black;
+                    }
+
+                }
+
+
+
+            }
+
+
+        }
+    
+
+    }
